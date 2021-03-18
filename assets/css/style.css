@@ -11,6 +11,7 @@ body {
 .topnav {
       overflow: hidden;
       background-color: darkblue;
+
 }
 
 .topnav a {
@@ -102,10 +103,11 @@ body {
       color: #fcf810;
 }
 
-.hero-text p{
+.hero-text p {
       font-size: 18px;
       color: antiquewhite;
 }
+
 .row {
       max-width: 1000px;
       margin: auto;
@@ -183,6 +185,10 @@ body {
       padding: 10px;
 }
 
+.about-text {
+      font-size: 25px;
+}
+
 .about-img {
       flex: 20%;
       padding: 0;
@@ -201,7 +207,7 @@ body {
       padding: 14px 28px;
       font-size: 16px;
       cursor: pointer;
-      transition:  all 0.9s ease;
+      transition: all 0.9s ease;
 }
 
 .success {
@@ -214,7 +220,6 @@ body {
 .success:hover {
       background-color: #4CAF50;
       color: white;
-
 }
 
 /* Blue */
@@ -228,8 +233,6 @@ body {
 
 .info:hover {
       opacity: 0.8;
-
-      
 }
 
 .btn-grp {
@@ -240,9 +243,9 @@ body {
 }
 
 .about-text {
-      float: right;
-      text-shadow: 4px 8px 12px rgba(0, 0, 0, 0.5);
-      color: black;
+      font-size: 19px;
+      margin: 0;
+      padding: 0 30px;
 }
 
 input[input-btn], textarea, select {
@@ -265,11 +268,27 @@ input[input-btn], textarea, select {
             margin-top: 0;
       }
 }
-h1{
-          text-align: center;
-    border-bottom: 3px solid red;
-    margin: 81px 45%;
-    font-size: 33px;
-    font-weight: 900;
-    width: 190px;
+
+.about-head, .about-head h1 {
+      text-align: center;
+      margin: auto;
+      color: blue;
+      width: 134px;
+      margin-bottom: 31px;
+}
+
+.service-head, .service-head h1 {
+      text-align: center;
+      margin: auto;
+      margin-bottom: 31px;
+      color: blue;
+      width: 134px;
+}
+
+.contact-head, .contact-head h1 {
+      text-align: center;
+      margin: auto;
+      color: blue;
+      margin-bottom: 31px;
+      width: 145px;
 }
